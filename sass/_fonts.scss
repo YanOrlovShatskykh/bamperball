@@ -1,35 +1,81 @@
 @font-face {
-  font-family: 'Museo Sans Bold';
-  src: url('../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot');
-  src: local('MuseoSansCyrl-700'),
-      url('../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/MuseoSansCyrl/MuseoSansCyrl-700.woff2') format('woff2'),
-      url('../fonts/MuseoSansCyrl/MuseoSansCyrl-700.woff') format('woff'),
-      url('../fonts/MuseoSansCyrl/MuseoSansCyrl-700.ttf') format('truetype');
-  font-weight: 700;
+  font-family: "Raleway-ExtraBold";
+  src: url("../fonts/Raleway/Raleway-ExtraBold.eot"); /* IE9 Compat Modes */
+  src: local("Raleway ExtraBold"), local("Raleway-ExtraBold"),
+    url("../fonts/Raleway/Raleway-ExtraBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Raleway/Raleway-ExtraBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Raleway/Raleway-ExtraBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Museo Sans Light';
-  src: url('../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot');
-  src: local('MuseoSansCyrl-300'),
-      url('../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/MuseoSansCyrl/MuseoSansCyrl-300.woff2') format('woff2'),
-      url('../fonts/MuseoSansCyrl/MuseoSansCyrl-300.woff') format('woff'),
-      url('../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf') format('truetype');
+  font-family: "Raleway-Medium";
+  src: url("../fonts/Raleway/Raleway-Medium.eot"); /* IE9 Compat Modes */
+  src: local("Raleway-Medium"), local("Raleway Medium"),
+    url("../fonts/Raleway/Raleway-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Raleway/Raleway-Medium.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Raleway/Raleway-Medium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto/Roboto-Light.eot"); /* IE9 Compat Modes */
+  src: local("Roboto-Light"), local("Roboto Light"),
+    url("../fonts/Roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Roboto/Roboto-Light.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Roboto/Roboto-Light.woff2") format("woff2"); /* Modern Browsers */
   font-weight: 300;
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto/Roboto-Medium.eot"); /* IE9 Compat Modes */
+  src: local("Roboto-Medium"), local("Roboto Medium"),
+    url("./fonts/Roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Roboto/Roboto-Medium.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Roboto/Roboto-Medium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto/Roboto-Regular.eot"); /* IE9 Compat Modes */
+  src: local("Roboto-Regular"), local("Roboto Regular"),
+    url("../fonts/Roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Roboto/Roboto-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rubik-Regular";
+  src: url("../fonts/Rubik/Rubik-Regular.eot"); /* IE9 Compat Modes */
+  src: local("Rubik-Regular"), local("Rubik Regular"),
+    url("../fonts/Rubik/Rubik-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Rubik/Rubik-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Rubik/Rubik-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Rubik/Rubik-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 400;
+  font-style: normal;
+}
+
 @mixin reg {
-  font-family: 'Museo Sans Light', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 300;
+  font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
 }
 
-@mixin bold {
-  font-family: 'Museo Sans Bold', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 700;
-}
-
-
+// @mixin bold {
+//   font-family: 'Museo Sans Bold', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+//   font-weight: 700;
+// }
