@@ -1,0 +1,78 @@
+.game-options
+  &__block
+    padding-top: 95px
+    padding-bottom: 90px
+  &__title
+    margin: 0
+    margin-bottom: 36px
+
+    text-align: center
+    font-family: "Raleway-Medium"
+    font-size: 30px
+    font-weight: 500
+    line-height: 35px
+    color: $main-color
+    text-transform: uppercase
+  &-card
+    &__list
+      display: flex
+      justify-content: space-between
+      align-items: center
+      margin: 0
+      padding: 0
+      list-style: none
+    &__list-item
+      display: flex
+      flex-direction: column
+      align-items: center
+
+      background-color: #ffffff
+      border: 6px solid $main-color
+      box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1)
+      transition: transform 0.5s
+      &:hover
+        transform: scale(1.1)
+    &__list-item-img-wrapper
+      position: relative
+      &::after
+        content: ""
+        position: absolute
+        left: 0
+        bottom: 3px
+        width: 0
+        height: 0
+        border-style: solid
+        border-width: 0 192px 45px 192px
+        border-color: transparent transparent #ffffff transparent
+    &__list-item-img
+      opacity: 0.52
+    &__title
+      margin: 0
+      margin-top: -5px
+      margin-bottom: 9px
+      font-family: 'Rubik-Regular'
+      font-weight: 400
+      font-size: 20px
+      line-height: 24px
+      color: $text-color
+
+      text-transform: uppercase
+
+    &__subtitle
+      margin: 0
+      margin-bottom: 18px
+      font-family: 'Roboto-Medium'
+      font-weight: 500
+      font-size: 14px
+      line-height: 16px
+
+      color: $text-color
+    &__button
+      margin-bottom: 39px
+      background: linear-gradient(180deg, #8EC716 0%, #4A9312 100%)
+      box-shadow: 0px 4px 4px rgba(29, 146, 0, 0.18)
+      &:hover
+        background: linear-gradient(180deg, #4A9312 0%, #8EC716 100%)
+        color: #212c1d
+        
+

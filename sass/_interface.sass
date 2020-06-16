@@ -2,13 +2,11 @@ html
   box-sizing: border-box
 *, *:before, *:after
   box-sizing: inherit
-
 body
   +reg
   color: $text-color
 img
   max-width: 100%
-
 .button
   padding: 22px 48px
 
@@ -18,14 +16,15 @@ img
   color: $buttons-text-color
   text-transform: uppercase
 
+  background:  transparent
   border: none
   border-radius: 24px
-  transition: background-color 0.5s, border-color 0.5s, color 0.5s
+  transition: background-color 0.5s, border-color 0.5s, color 0.5s, linear-gradient 0.5s
   cursor: pointer
-  
 .container
   width: 1246px
   margin: auto
+
 // .section
 //   padding: 76px 0
 //   padding-bottom: 89px
