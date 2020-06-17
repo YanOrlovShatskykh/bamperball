@@ -28,7 +28,7 @@
           <img src="img/header/logo.svg" alt="Не стой на месте!" class="main-header__logo-img">
         </div>
         <!-- /.main-header__logo -->
-        <h1 class="main-header__title">Bumperball футбол в кулях КИЇВ</h1>
+        <h1 class="main-header__title">Bumperball<br>ГРАЙ, ШТОВХАЙСЯ, ПОСМІХАЙСЯ</h1>
         <!-- /.main-header__title -->
         <button class="button main-header__button" id="js-btn-rent">Замовити</button>
         <!-- /.main-header__button -->
@@ -38,7 +38,7 @@
     <main class="main">
       <section class="game-options game-options__block">
         <div class="container">
-          <h2 class="game-options__title">грай, штовхайся, посміхайся</h2>
+          <h2 class="game-options__title">ОБЕРИ СВІЙ ВАРІАНТ ГРИ</h2>
           <!-- /.game-options__title -->
           <ul class="game-options-card__list">
             <li class="game-options-card__list-item">
@@ -121,7 +121,7 @@
                 <img src="img/advantages/4.svg" alt="На ринку: 6-й рік, знаєм про Бампербол ВСЕ!" class="advantages-card__list-item-img">
               </div>
               <!-- /.advantages-card__list-item-img-wrapper -->
-              <span class="advantages-card__description">На ринку: 6-й рік, знаєм про Бампербол ВСЕ!</span> 
+              <span class="advantages-card__description">На ринку:<br>6-й рік, знаєм про Бампербол ВСЕ!</span> 
               <!-- /.advantages-card__description -->
             </li>
             <!-- /.advantages-card__list-item -->
@@ -149,14 +149,14 @@
             <!-- /.main-footer__telegram -->
             <a href="mailto:ukrainekava@gmail.com" class="main-footer__mail">ukrainekava@gmail.com</a>
             <!-- /.main-footer__mail -->
-            <a href="https://goo.gl/maps/TAQc5q6YjTCAzjGa6" class="main-footer__map">Киев, X-Park, 02139</a>
+            <a href="https://goo.gl/maps/TAQc5q6YjTCAzjGa6" class="main-footer__map">Київ, X-Park, 02139</a>
             <!-- /.main-footer__map -->
           </div>
           <!-- /.main-footer-contacts -->
           <div class="main-footer-copyrights">
             <span class="main-footer-copyrights__year">©NESTOINAMESTE 2014-2020</span> 
             <!-- /.main-footer-copyrights__year -->
-            <span class="main-footer-copyrights__rights">все права защищены</span> 
+            <span class="main-footer-copyrights__rights">всі права захищені</span> 
             <!-- /.main-footer-copyrights__rights -->
           </div>
           <!-- /.main-footer-copyrights -->
@@ -165,6 +165,31 @@
       <!-- /.container -->
     </footer>
     <!-- /.main-footer -->
+    <div class="modal" id="modal">
+      <div class="modal-dialog">
+        <button class="modal-dialog__close" id="close"></button>
+        <form action="#" id="brif-form" class="modal-dialog__form">
+          <label>
+            <span class="modal-dialog__caption">Введіть Ваше ім’я</span>
+            <input type="text" name="username" class="input brif__input name" placeholder="Юрій">
+          </label>
+          <label>
+            <span class="modal-dialog__caption">Введіть Ваш e-mail</span>
+            <input type="email" name="email" class="input brif__input email" placeholder="my_email@gmail.com">
+          </label>
+          <label>
+            <span class="modal-dialog__caption">Введіть Ваш телефон</span>
+            <input type="tel" name="phone" class="input brif__input phone" placeholder="+38099 000 00 00">
+          </label>
+          <label>
+            <span class="modal-dialog__caption">Коментарій</span>
+            <textarea name="comment" class="input brif__input comment" placeholder="Введіть текст"></textarea>
+          </label>
+          <button class="button brif__button">Замовити</button>
+        </form>
+      </div>
+    </div>
+
   </body>
 </html>
 
