@@ -2,11 +2,7 @@
   position: relative
 
   max-height: 636px
-  background-image: url("../img/header/Fon_video.jpg")
-  background-repeat: no-repeat
-  background-position: top center
-  background-size: cover
-  overflow: hidden
+  
   &::after
     content: ""
 
@@ -16,16 +12,17 @@
 
     display: block
     width: 100%
-    height: 100%
+    height: 99.9%
 
     background-color: rgba(0, 0, 0, 0.5)
     z-index: 2
+    overflow: hidden
   &__video-wrap
     position: relative
 
     width: 100%
-    min-height: 636px
-    height: 636px
+    max-height: 636px
+    // height: 636px
     overflow: hidden
   &__video
     position: relative
@@ -36,6 +33,11 @@
     height: auto
 
     z-index: 1
+    background-image: url("../img/header/Fon_video.jpg")
+    background-repeat: no-repeat
+    background-position: top center
+    background-size: cover
+    overflow: hidden
   &__content
     position: absolute
     top: 122px
@@ -51,7 +53,7 @@
     margin-bottom: 6px
   &__logo-img
   &__title
-    min-width: 760px
+    // min-width: 760px
     margin: 0
     margin-bottom: 18px
     
@@ -68,3 +70,5 @@
     &:hover
       border-color: $buttons-text-color
       color: $main-color
+
+
