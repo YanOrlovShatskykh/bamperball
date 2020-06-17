@@ -12,7 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous" defer></script>
     <script src="js/jquery.validate.min.js" defer></script>
     <script src="js/jquery.maskedinput.min.js" defer></script>
-    <!-- <script src="js/script.js" defer></script> -->
+    <script src="js/script.js" defer></script>
   </head>
   <body>
     <header class="main-header main-header__block">
@@ -30,7 +30,7 @@
         <!-- /.main-header__logo -->
         <h1 class="main-header__title">Bumperball<br>ГРАЙ, ШТОВХАЙСЯ, ПОСМІХАЙСЯ</h1>
         <!-- /.main-header__title -->
-        <button class="button main-header__button" id="js-btn-rent" data-order="Оренда м'ячів">Замовити</button>
+        <button class="button main-header__button" id="js-btn-rent" data-order="Замовлено оренду м'ячів">Замовити</button>
         <!-- /.main-header__button -->
       </div>
     </header>
@@ -48,7 +48,7 @@
               <!-- /.game-options-card__title -->
               <h4 class="game-options-card__subtitle">На нашому стаціонарному полі</h4>
               <!-- /.game-options-card__subtitle -->
-              <button class="button game-options-card__button" data-order="Замовлено гру на нашому полі">ЗАМОВИТИ</button>
+              <button class="button game-options-card__button" id="js-btn-playWithUs" data-order="Замовлено гру на нашому полі">ЗАМОВИТИ</button>
               <!-- /.button game-options-card__button -->
             </li>
             <!-- /.game-options-card__list-item -->
@@ -59,7 +59,7 @@
               <!-- /.game-options-card__title -->
               <h4 class="game-options-card__subtitle">Виїздна гра на Ваш майданчик</h4>
               <!-- /.game-options-card__subtitle -->
-              <button class="button game-options-card__button" data-order="Замовлено виїздну гру">ЗАМОВИТИ</button>
+              <button class="button game-options-card__button" id="js-btn-playWithYou" data-order="Замовлено виїздну гру">ЗАМОВИТИ</button>
               <!-- /.button game-options-card__button -->
             </li>
             <!-- /.game-options-card__list-item -->
@@ -70,7 +70,7 @@
               <!-- /.game-options-card__title -->
               <h4 class="game-options-card__subtitle">Кейтерінг у нас на локації + активна програма</h4>
               <!-- /.game-options-card__subtitle -->
-              <button class="button game-options-card__button" data-order="Замовлено кейтерінг у нас на локації + активну програму">ЗАМОВИТИ</button>
+              <button class="button game-options-card__button" id="js-btn-catering" data-order="Замовлено кейтерінг у нас на локації + активну програму">ЗАМОВИТИ</button>
               <!-- /.button game-options-card__button -->
             </li>
             <!-- /.game-options-card__list-item -->
@@ -185,23 +185,25 @@
             <span class="modal-dialog__caption">Коментарій</span>
             <textarea name="comment" class="input brif__input comment" placeholder="Введіть текст"></textarea>
           </label>
-          <button class="button brif__button">Замовити</button>
+          <input type="hidden" name="whatOrder" id="js-whatOrder" data-whatOrder="">
+          <input type="submit" class="button brif__button" value="Замовити">
         </form>
       </div>
-      <div class="modal-thanks">
-        <button class="modal-thanks__close" id="close"></button>
-        <div class="modal-thanks__wrapper">
-          <div class="modal-thanks__img-wrapper">
-            <img src="img/modal-thanks/thanks-logo.svg" alt="Дякуємо за звернення" class="modal-thanks__img">
+    </div>
+    <div class="modal-t" id="modal-t">
+      <div class="modal-t-thanks">
+        <button class="modal-t-thanks__close" id="close-thanks"></button>
+        <div class="modal-t-thanks__wrapper">
+          <div class="modal-t-thanks__img-wrapper">
+            <img src="img/modal-thanks/thanks-logo.svg" alt="Дякуємо за звернення" class="modal-t-thanks__img">
           </div>
           <!-- /.modal-thanks__img-wrapper -->
-          <p class="modal-thanks__text">Дякуємо за звернення;) <br> Найближчим часом зв’яжемось з Вами.</p>
+          <p class="modal-t-thanks__text">Дякуємо за звернення;) <br> Найближчим часом зв’яжемось з Вами.</p>
           <!-- /.modal-thanks__text -->
-          <p class="modal-thanks__telegram">Якщо горить - пиши в телеграм<br> +38 050 242-02-11</p>
+          <p class="modal-t-thanks__telegram">Якщо горить - пиши в телеграм<br> +38 050 242-02-11</p>
           <!-- /.modal-thanks__telegram -->
         </div>
       </div>
     </div>
-
   </body>
 </html>

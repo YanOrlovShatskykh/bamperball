@@ -594,7 +594,7 @@ img {
   overflow: auto;
 }
 
-.modal {
+.modal-t {
   position: fixed;
   top: 0;
   left: 0;
@@ -605,13 +605,13 @@ img {
   background-color: rgba(255, 255, 255, 0.85);
 }
 
-.modal_active {
+.modal-t_active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.modal-thanks {
+.modal-t-thanks {
   position: relative;
   top: 10px;
   margin: auto;
@@ -622,7 +622,7 @@ img {
           box-shadow: 0px 0px 10px rgba(29, 146, 0, 0.5);
 }
 
-.modal-thanks__wrapper {
+.modal-t-thanks__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -635,7 +635,7 @@ img {
           align-items: center;
 }
 
-.modal-thanks__close {
+.modal-t-thanks__close {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -647,7 +647,7 @@ img {
   cursor: pointer;
 }
 
-.modal-thanks__close::before {
+.modal-t-thanks__close::before {
   top: 9px;
   left: -2px;
   content: "";
@@ -659,7 +659,7 @@ img {
           transform: rotate(45deg);
 }
 
-.modal-thanks__close::after {
+.modal-t-thanks__close::after {
   top: 9px;
   left: -2px;
   content: "";
@@ -671,12 +671,12 @@ img {
           transform: rotate(-45deg);
 }
 
-.modal-thanks__img-wrapper {
+.modal-t-thanks__img-wrapper {
   margin-top: 142px;
   margin-bottom: 77px;
 }
 
-.modal-thanks__text, .modal-thanks__telegram {
+.modal-t-thanks__text, .modal-t-thanks__telegram {
   width: 340px;
   margin: 0;
   margin-bottom: 20px;
@@ -803,11 +803,11 @@ img {
   .modal-dialog {
     padding: 26px 0;
   }
-  .modal-thanks {
+  .modal-t-thanks {
     width: 500px;
     height: 400px;
   }
-  .modal__img-wrapper {
+  .modal-t-thanks__img-wrapper {
     margin-top: 45px;
     margin-bottom: 20px;
   }
@@ -941,16 +941,16 @@ img {
     line-height: 11px;
     padding: 10px 30px;
   }
-  .modal-thanks {
+  .modal-t-thanks {
     width: 223px;
     height: 205px;
   }
-  .modal-thanks__img-wrapper {
+  .modal-t-thanks__img-wrapper {
     width: 38px;
     margin-top: 45px;
     margin-bottom: 18px;
   }
-  .modal-thanks__text, .modal-thanks__telegram {
+  .modal-t-thanks__text, .modal-t-thanks__telegram {
     font-size: 9px;
     line-height: 11px;
   }
