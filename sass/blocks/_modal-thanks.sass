@@ -38,19 +38,23 @@
       outline: none
       cursor: pointer
       &::before
+        content: ""
+
+        position: absolute
         top: 9px
         left: -2px
-        content: ""
-        position: absolute
+
         width: 24px
         height: 3px
         background-color: #ACACAC
         transform: rotate(45deg)
       &::after
+        content: ""
+
+        position: absolute
         top: 9px
         left: -2px
-        content: ""
-        position: absolute
+        
         width: 24px
         height: 3px
         background-color: #ACACAC
@@ -63,6 +67,7 @@
       width: 340px
       margin: 0
       margin-bottom: 20px
+      
       font-family: 'Roboto'
       font-weight: 400
       font-size: 18px

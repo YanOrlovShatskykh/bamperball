@@ -125,12 +125,12 @@ img {
 }
 
 .main-header__video {
+  z-index: 1;
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: auto;
-  z-index: 1;
   background-image: url("../img/header/Fon_video.jpg");
   background-repeat: no-repeat;
   background-position: top center;
@@ -139,6 +139,7 @@ img {
 }
 
 .main-header__content {
+  z-index: 3;
   position: absolute;
   top: 122px;
   left: 50%;
@@ -154,7 +155,6 @@ img {
           align-items: center;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  z-index: 3;
 }
 
 .main-header__logo {
@@ -199,12 +199,12 @@ img {
 .game-options__title {
   margin: 0;
   margin-bottom: 30px;
-  text-align: center;
   font-family: "Raleway";
   font-size: 30px;
   font-weight: 500;
   line-height: 35px;
   color: #8EC716;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -502,10 +502,10 @@ img {
 }
 
 .modal-dialog__close::before {
-  top: 9px;
-  left: -2px;
   content: "";
   position: absolute;
+  top: 9px;
+  left: -2px;
   width: 24px;
   height: 3px;
   background-color: #ACACAC;
@@ -514,10 +514,10 @@ img {
 }
 
 .modal-dialog__close::after {
-  top: 9px;
-  left: -2px;
   content: "";
   position: absolute;
+  top: 9px;
+  left: -2px;
   width: 24px;
   height: 3px;
   background-color: #ACACAC;
@@ -650,10 +650,10 @@ img {
 }
 
 .modal-t-thanks__close::before {
-  top: 9px;
-  left: -2px;
   content: "";
   position: absolute;
+  top: 9px;
+  left: -2px;
   width: 24px;
   height: 3px;
   background-color: #ACACAC;
@@ -662,10 +662,10 @@ img {
 }
 
 .modal-t-thanks__close::after {
-  top: 9px;
-  left: -2px;
   content: "";
   position: absolute;
+  top: 9px;
+  left: -2px;
   width: 24px;
   height: 3px;
   background-color: #ACACAC;

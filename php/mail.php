@@ -1,14 +1,12 @@
 <?php
-
         if(isset($_POST['sendedOrder'])) {
-
                 $sendedOrder = $_POST['sendedOrder'];
                 $username = $_POST['username'];
                 $email = $_POST['email'];
                 $phone = $_POST['phone'];
                 $comment = $_POST['comment'];
 
-        //        create email message for admin
+                //create email message for admin
                 $admSubject = "Надійшло нове замовлення!";
                 $admMessage = "<h2>Вітаю! Надійшло нове замовлення.</h2>";
                 $admMessage .= "<h3>$sendedOrder.</h3>";
@@ -26,11 +24,8 @@
                 
                 // echo json_encode($admMessage, JSON_UNESCAPED_UNICODE);
 
-
-
                 /* https://api.telegram.org/bot1228077523:AAFfhn0Fh-dP8lu037gvQ9DclQcd7OZ4CzM/getUpdates,
                 где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
-                
                 
                 //в переменную $token нужно вставить токен, который нам прислал @botFather
                 $token = "1228077523:AAFfhn0Fh-dP8lu037gvQ9DclQcd7OZ4CzM";
@@ -61,8 +56,4 @@
                 } else {
                         echo "Error";
                 }
-
-        }
-
-
-                
+        }                
