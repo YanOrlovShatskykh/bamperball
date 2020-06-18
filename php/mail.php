@@ -24,14 +24,14 @@
                 
                 // echo json_encode($admMessage, JSON_UNESCAPED_UNICODE);
 
-                /* https://api.telegram.org/bot1228077523:AAFfhn0Fh-dP8lu037gvQ9DclQcd7OZ4CzM/getUpdates,
+                /* https://api.telegram.org/botXXXXXXXXXXXXXXXXXXXXXXX/getUpdates,
                 где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
                 
                 //в переменную $token нужно вставить токен, который нам прислал @botFather
-                $token = "1228077523:AAFfhn0Fh-dP8lu037gvQ9DclQcd7OZ4CzM";
+                $token = "";
                 
                 //нужна вставить chat_id (Как получить chad id, читайте ниже)
-                $chat_id = "-391821362";
+                $chat_id = "";
                 
                 //Далее создаем переменную, в которую помещаем PHP массив
                 $arr = array(
