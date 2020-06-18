@@ -1,58 +1,58 @@
 @font-face {
-  font-family: "Raleway-ExtraBold";
+  font-family: "Raleway";
   src: url("../fonts/Raleway/Raleway-ExtraBold.eot");
   /* IE9 Compat Modes */
-  src: local("Raleway ExtraBold"), local("Raleway-ExtraBold"), url("../fonts/Raleway/Raleway-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype"), url("../fonts/Raleway/Raleway-ExtraBold.woff") format("woff"), url("../fonts/Raleway/Raleway-ExtraBold.woff2") format("woff2");
+  src: local("Raleway"), local("Raleway"), url("../fonts/Raleway/Raleway-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype"), url("../fonts/Raleway/Raleway-ExtraBold.woff") format("woff"), url("../fonts/Raleway/Raleway-ExtraBold.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Raleway-Medium";
+  font-family: "Raleway";
   src: url("../fonts/Raleway/Raleway-Medium.eot");
   /* IE9 Compat Modes */
-  src: local("Raleway-Medium"), local("Raleway Medium"), url("../fonts/Raleway/Raleway-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype"), url("../fonts/Raleway/Raleway-Medium.woff") format("woff"), url("../fonts/Raleway/Raleway-Medium.woff2") format("woff2");
+  src: local("Raleway"), local("Raleway"), url("../fonts/Raleway/Raleway-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype"), url("../fonts/Raleway/Raleway-Medium.woff") format("woff"), url("../fonts/Raleway/Raleway-Medium.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto-Light";
+  font-family: "Roboto";
   src: url("../fonts/Roboto/Roboto-Light.eot");
   /* IE9 Compat Modes */
-  src: local("Roboto-Light"), local("Roboto Light"), url("../fonts/Roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Light.woff") format("woff"), url("../fonts/Roboto/Roboto-Light.woff2") format("woff2");
+  src: local("Roboto"), local("Roboto"), url("../fonts/Roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Light.woff") format("woff"), url("../fonts/Roboto/Roboto-Light.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto-Medium";
+  font-family: "Roboto";
   src: url("../fonts/Roboto/Roboto-Medium.eot");
   /* IE9 Compat Modes */
-  src: local("Roboto-Medium"), local("Roboto Medium"), url("./fonts/Roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto/Roboto-Medium.woff2") format("woff2");
+  src: local("Roboto"), local("Roboto"), url("./fonts/Roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto/Roboto-Medium.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto";
   src: url("../fonts/Roboto/Roboto-Regular.eot");
   /* IE9 Compat Modes */
-  src: local("Roboto-Regular"), local("Roboto Regular"), url("../fonts/Roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2");
+  src: local("Roboto"), local("Roboto"), url("../fonts/Roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Rubik-Regular";
+  font-family: "Rubik";
   src: url("../fonts/Rubik/Rubik-Regular.eot");
   /* IE9 Compat Modes */
-  src: local("Rubik-Regular"), local("Rubik Regular"), url("../fonts/Rubik/Rubik-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik/Rubik-Regular.ttf") format("truetype"), url("../fonts/Rubik/Rubik-Regular.woff") format("woff"), url("../fonts/Rubik/Rubik-Regular.woff2") format("woff2");
+  src: local("Rubik"), local("Rubik"), url("../fonts/Rubik/Rubik-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Rubik/Rubik-Regular.ttf") format("truetype"), url("../fonts/Rubik/Rubik-Regular.woff") format("woff"), url("../fonts/Rubik/Rubik-Regular.woff2") format("woff2");
   /* Modern Browsers */
   font-weight: 400;
   font-style: normal;
@@ -80,9 +80,10 @@ img {
 
 .button {
   padding: 22px 48px;
-  font-family: Rubik-Regular;
+  font-family: Rubik;
   font-size: 16px;
   line-height: 19px;
+  font-weight: 400;
   color: #ffffff;
   text-transform: uppercase;
   background: transparent;
@@ -163,9 +164,10 @@ img {
 .main-header__title {
   margin: 0;
   margin-bottom: 18px;
-  font-family: Raleway-ExtraBold;
+  font-family: Raleway;
   font-size: 45px;
   line-height: 59px;
+  font-weight: 800;
   text-align: center;
   color: #ffffff;
 }
@@ -198,7 +200,7 @@ img {
   margin: 0;
   margin-bottom: 30px;
   text-align: center;
-  font-family: "Raleway-Medium";
+  font-family: "Raleway";
   font-size: 30px;
   font-weight: 500;
   line-height: 35px;
@@ -273,7 +275,7 @@ img {
   margin: 0;
   margin-top: -5px;
   margin-bottom: 9px;
-  font-family: 'Rubik-Regular';
+  font-family: 'Rubik';
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -284,7 +286,7 @@ img {
 .game-options-card__subtitle {
   margin: 0;
   margin-bottom: 18px;
-  font-family: 'Roboto-Medium';
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -321,7 +323,7 @@ img {
 .advantages__title {
   margin: 0;
   margin-bottom: 30px;
-  font-family: 'Rubik-Regular';
+  font-family: 'Rubik';
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
@@ -374,7 +376,7 @@ img {
   display: inline-block;
   padding-bottom: 57px;
   text-align: center;
-  font-family: 'Rubik-Regular';
+  font-family: 'Rubik';
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -409,7 +411,7 @@ img {
   position: relative;
   width: 100%;
   max-width: 190px;
-  font-family: 'Roboto-Regular';
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -450,7 +452,7 @@ img {
   width: 100%;
   max-width: 200px;
   text-align: right;
-  font-family: 'Roboto-Light';
+  font-family: 'Roboto';
   font-weight: 300;
   font-size: 14px;
   line-height: 16px;
@@ -537,7 +539,7 @@ img {
 .modal-dialog__caption {
   display: block;
   margin-bottom: 6px;
-  font-family: 'Roboto-Regular';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -680,7 +682,7 @@ img {
   width: 340px;
   margin: 0;
   margin-bottom: 20px;
-  font-family: 'Roboto-Regular';
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
