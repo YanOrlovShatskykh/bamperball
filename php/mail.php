@@ -12,7 +12,7 @@
                 $admMessage .= "<h3>$sendedOrder.</h3>";
                 $admMessage .= "<h3>Ім'я замовника - $username, номер телефону - <a href='tel:$phone'>$phone</a>, email - $email.</h3>";
                 $admMessage .= "<h3>Коментар від замовника: $comment</h3>";
-                $admEmail = "yan.orlov.shatskykh@gmail.com";
+                $admEmail = "ukrainekava@gmail.com";
                 $headers = 'MIME-Version: 1.0' . "\r\n";
                 $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 
