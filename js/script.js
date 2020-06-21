@@ -10,7 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const sendBtn = document.querySelector('.brif__button');
   const form = document.getElementById('brif-form');
   const modalThanks = document.getElementById('modal-t');
+  const video = document.querySelector('.main-header__video');
+  const volume = document.querySelector('.main-header__music-button');
   const formData = new FormData();
+  
+  video.muted = false;
 
   const openModal = event => {
     event.preventDefault();
@@ -62,10 +66,16 @@ document.addEventListener('DOMContentLoaded', () => {
     modalThanks.addEventListener('click', closeModal);
   };
 
+  const musicRemote = () => {
+    video.muted = (video.muted == false) ? true : false;
+    volume.classList.toggle('main-header__music-button_mute');
+  };
+
   btnRent.addEventListener('click', openModal);
   playWithUs.addEventListener('click', openModal);
   playWithYou.addEventListener('click', openModal);
   catering.addEventListener('click', openModal);
   btnCloseModal.addEventListener('click', closeModal);
-  form.addEventListener('submit', sendMail);  
+  form.addEventListener('submit', sendMail);
+  volume.addEventListener('click', musicRemote);
 });

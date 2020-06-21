@@ -68,3 +68,28 @@
     &:hover
       border-color: $buttons-text-color
       color: $main-color
+  &__music-button
+    position: absolute
+    bottom: 100px
+    right: 100px
+    z-index: 5
+
+    width: 100px
+    height: 100px
+
+    background: url('../img/header/mute.svg')
+    background-repeat: no-repeat
+    background-position: center center
+
+    cursor: pointer
+    
+    animation-name: dance
+    animation-duration: 0.7s
+    animation-timing-function: ease
+    animation-delay: 5s
+    animation-iteration-count: infinite
+    animation-direction: normal
+    animation-fill-mode: none
+    animation-play-state: running
+    &_mute
+      background: url('../img/header/play.svg')

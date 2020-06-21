@@ -99,6 +99,52 @@ img {
   margin: auto;
 }
 
+@-webkit-keyframes dance {
+  0% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  25% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  75% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+@keyframes dance {
+  0% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  25% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  75% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
 .main-header {
   position: relative;
   max-height: 636px;
@@ -181,6 +227,39 @@ img {
 .main-header__button:hover {
   border-color: #ffffff;
   color: #8EC716;
+}
+
+.main-header__music-button {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  z-index: 5;
+  width: 100px;
+  height: 100px;
+  background: url("../img/header/mute.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  -webkit-animation-name: dance;
+          animation-name: dance;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.main-header__music-button_mute {
+  background: url("../img/header/play.svg");
 }
 
 .main {
@@ -827,6 +906,12 @@ img {
   .main-header__video {
     width: 110%;
   }
+  .main-header__music-button {
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+  }
   .game-options__title {
     margin-bottom: 11px;
     font-size: 16px;
@@ -959,6 +1044,10 @@ img {
 }
 
 @media (max-width: 420px) {
+  .main-header__music-button {
+    right: 25px;
+    bottom: 25px;
+  }
   .advantages-card__list {
     -ms-flex-pack: distribute;
         justify-content: space-around;
