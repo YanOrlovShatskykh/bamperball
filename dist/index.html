@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bumperball у Києві</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&family=Roboto:wght@300;400;500&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous" defer></script> -->
+    <!-- <script src="js/jquery.validate.min.js" defer></script> -->
+    <!-- <script src="js/jquery.maskedinput.min.js" defer></script> -->
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="main-header main-header__block">
+      <div class="main-header__video-wrap">
+        <video class="main-header__video" autoplay loop muted>
+            <source src="video/video-mus-720.mp4" type="video/mp4">
+            <source src="video/video-mus-720.webm" type="video/webm">
+            <source src="video/video-mus-720.ogv" type='video/ogg'>
+        </video>
+      </div>
+      <div class="main-header__content">
+        <div class="main-header__logo">
+          <img src="img/header/logo.svg" alt="Не стой на месте!" class="main-header__logo-img">
+        </div>
+        <!-- /.main-header__logo -->
+        <h1 class="main-header__title">Bumperball<br>ГРАЙ, ШТОВХАЙСЯ, ПОСМІХАЙСЯ</h1>
+        <!-- /.main-header__title -->
+        <button class="button main-header__button" id="js-btn-rent" data-order="Замовлено оренду м'ячів">Замовити</button>
+        <!-- /.main-header__button -->
+      </div>
+      <div class="main-header__music-button"></div>
+      <!-- /.main-header__music-button -->
+    </header>
+    <!-- /.main-header -->
+    <main class="main">
+      <section class="game-options game-options__block">
+        <div class="container">
+          <h2 class="game-options__title">ОБЕРИ СВІЙ ВАРІАНТ ГРИ</h2>
+          <!-- /.game-options__title -->
+          <ul class="game-options-card__list">
+            <li class="game-options-card__list-item">
+              <div class="game-options-card__list-item-img-wrapper"><img src="img/game-options/1.jpg" alt="гра у нас" class="game-options-card__list-item-img"></div>
+              <!-- /.game-options-card__list-item-img-wrapper -->
+              <h3 class="game-options-card__title">гра у нас</h3>
+              <!-- /.game-options-card__title -->
+              <h4 class="game-options-card__subtitle">На нашому стаціонарному полі</h4>
+              <!-- /.game-options-card__subtitle -->
+              <button class="button game-options-card__button" id="js-btn-playWithUs" data-order="Замовлено гру на нашому полі">ЗАМОВИТИ</button>
+              <!-- /.button game-options-card__button -->
+            </li>
+            <!-- /.game-options-card__list-item -->
+            <li class="game-options-card__list-item">
+              <div class="game-options-card__list-item-img-wrapper"><img src="img/game-options/2.jpg" alt="гра у вас" class="game-options-card__list-item-img"></div>
+              <!-- /.game-options-card__list-item-img-wrapper -->
+              <h3 class="game-options-card__title">гра У ВАС</h3>
+              <!-- /.game-options-card__title -->
+              <h4 class="game-options-card__subtitle">Виїздна гра на Ваш майданчик</h4>
+              <!-- /.game-options-card__subtitle -->
+              <button class="button game-options-card__button" id="js-btn-playWithYou" data-order="Замовлено виїздну гру">ЗАМОВИТИ</button>
+              <!-- /.button game-options-card__button -->
+            </li>
+            <!-- /.game-options-card__list-item -->
+            <li class="game-options-card__list-item">
+              <div class="game-options-card__list-item-img-wrapper"><img src="img/game-options/3.jpg" alt="корпоратив під ключ" class="game-options-card__list-item-img"></div>
+              <!-- /.game-options-card__list-item-img-wrapper -->
+              <h3 class="game-options-card__title">корпоратив під ключ</h3>
+              <!-- /.game-options-card__title -->
+              <h4 class="game-options-card__subtitle">Кейтерінг у нас на локації + активна програма</h4>
+              <!-- /.game-options-card__subtitle -->
+              <button class="button game-options-card__button" id="js-btn-catering" data-order="Замовлено кейтерінг у нас на локації + активну програму">ЗАМОВИТИ</button>
+              <!-- /.button game-options-card__button -->
+            </li>
+            <!-- /.game-options-card__list-item -->
+          </ul>
+          <!-- /.game-options-card__list -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.game-options game-options__block -->
+      <section class="map map__block">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.903245657182!2d30.544986454415152!3d50.4987584814605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d11a8a3c94bb%3A0x2df8b78aec62ed2c!2s%23nestoinameste%20HOUSE!5e0!3m2!1sru!2sua!4v1592326574902!5m2!1sru!2sua" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map__frame"></iframe>
+      </section>
+      <!-- /.map map__block -->
+      <section class="advantages advantages__block">
+        <div class="container">
+          <h2 class="advantages__title">День міста / День Народження / Фестиваль</h2>
+          <!-- /.advantages__title -->
+          <ul class="advantages-card__list">
+            <li class="advantages-card__list-item">
+              <div class="advantages-card__list-item-img-wrapper">
+                <img src="img/advantages/1.svg" alt="Для кого: від 3х років до 100 кг" class="advantages-card__list-item-img">
+              </div>
+              <!-- /.advantages-card__list-item-img-wrapper -->
+              <span class="advantages-card__description">Для кого:<br>від 3х років до 100 кг</span> 
+              <!-- /.advantages-card__description -->
+            </li>
+            <!-- /.advantages-card__list-item -->
+            <li class="advantages-card__list-item">
+              <div class="advantages-card__list-item-img-wrapper">
+                <img src="img/advantages/2.svg" alt="Кількість: 1-10 куль, комплект" class="advantages-card__list-item-img">
+              </div>
+              <!-- /.advantages-card__list-item-img-wrapper -->
+              <span class="advantages-card__description">Кількість:<br>1-10 куль, комплект</span> 
+              <!-- /.advantages-card__description -->
+            </li>
+            <!-- /.advantages-card__list-item -->
+            <li class="advantages-card__list-item">
+              <div class="advantages-card__list-item-img-wrapper">
+                <img src="img/advantages/3.svg" alt="Час аренди: від 1 години до 1 дня" class="advantages-card__list-item-img">
+              </div>
+              <!-- /.advantages-card__list-item-img-wrapper -->
+              <span class="advantages-card__description">Час аренди:<br>від 1 години до 1 дня</span> 
+              <!-- /.advantages-card__description -->
+            </li>
+            <!-- /.advantages-card__list-item -->
+            <li class="advantages-card__list-item">
+              <div class="advantages-card__list-item-img-wrapper">
+                <img src="img/advantages/4.svg" alt="На ринку: 6-й рік, знаєм про Бампербол ВСЕ!" class="advantages-card__list-item-img">
+              </div>
+              <!-- /.advantages-card__list-item-img-wrapper -->
+              <span class="advantages-card__description">На ринку:<br>6-й рік, знаєм про Бампербол ВСЕ!</span> 
+              <!-- /.advantages-card__description -->
+            </li>
+            <!-- /.advantages-card__list-item -->
+          </ul>
+          <!-- /.advantages-card__list -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.advantages advantages__block -->
+    </main>
+    <!-- /.main -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="main-footer__wrapper">
+          <div class="main-footer__logo-wrapper">
+            <img src="img/footer/footer-logo.svg" alt="Не стой на месте!" class="main-footer__logo">
+          </div>
+          <!-- /.main-footer__logo-wrapper -->
+          <div class="main-footer-contacts">
+            <a href="tel:+380502420211" class="main-footer__phone">+38 (050) 242-02-11</a>
+            <!-- /.main-footer__phone -->
+            <a href="tg://resolve?domain=nestoinameste27" class="main-footer__telegram">
+              <img src="img/footer/telegram-icon.svg" alt="телеграм" class="main-footer__telegram-icon">
+            </a>
+            <!-- /.main-footer__telegram -->
+            <a href="mailto:ukrainekava@gmail.com" class="main-footer__mail">ukrainekava@gmail.com</a>
+            <!-- /.main-footer__mail -->
+            <a href="https://goo.gl/maps/TAQc5q6YjTCAzjGa6" class="main-footer__map">Київ, X-Park, 02139</a>
+            <!-- /.main-footer__map -->
+          </div>
+          <!-- /.main-footer-contacts -->
+          <div class="main-footer-copyrights">
+            <span class="main-footer-copyrights__year">©NESTOINAMESTE 2014-2020</span><br> 
+            <!-- /.main-footer-copyrights__year -->
+            <span class="main-footer-copyrights__rights">всі права захищені</span> 
+            <!-- /.main-footer-copyrights__rights -->
+          </div>
+          <!-- /.main-footer-copyrights -->
+        </div>
+      </div>
+      <!-- /.container -->
+    </footer>
+    <!-- /.main-footer -->
+    <div class="modal" id="modal">
+      <div class="modal-dialog">
+        <button class="modal-dialog__close" id="close"></button>
+        <form action="#" id="brif-form" class="modal-dialog__form">
+          <label>
+            <span class="modal-dialog__caption">Введіть Ваше ім’я</span>
+            <input type="text" name="username" class="input brif__input name" placeholder="Юрій" required>
+          </label>
+          <label>
+            <span class="modal-dialog__caption">Введіть Ваш e-mail</span>
+            <input type="email" name="email" class="input brif__input email" placeholder="my_email@gmail.com">
+          </label>
+          <label>
+            <span class="modal-dialog__caption">Введіть Ваш телефон</span>
+            <input type="tel" name="phone" class="input brif__input phone" placeholder="+38099 000 00 00" required>
+          </label>
+          <label>
+            <span class="modal-dialog__caption">Коментарій</span>
+            <textarea name="comment" class="input brif__input comment" placeholder="Введіть текст"></textarea>
+          </label>
+          <input type="hidden" name="whatOrder" id="js-whatOrder" data-whatOrder="">
+          <input type="submit" class="button brif__button" value="Замовити">
+        </form>
+      </div>
+    </div>
+    <div class="modal-t" id="modal-t">
+      <div class="modal-t-thanks">
+        <button class="modal-t-thanks__close" id="close-thanks"></button>
+        <div class="modal-t-thanks__wrapper">
+          <div class="modal-t-thanks__img-wrapper">
+            <img src="img/modal-thanks/thanks-logo.svg" alt="Дякуємо за звернення" class="modal-t-thanks__img">
+          </div>
+          <!-- /.modal-thanks__img-wrapper -->
+          <p class="modal-t-thanks__text">Дякуємо за звернення;) <br> Найближчим часом зв’яжемось з Вами.</p>
+          <!-- /.modal-thanks__text -->
+          <p class="modal-t-thanks__telegram">Якщо горить - пиши в телеграм<br> <a href="tg://resolve?domain=nestoinameste27" class="main-footer__phone">+38 (050) 242-02-11</a></p>
+          <!-- /.modal-thanks__telegram -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
